@@ -1,0 +1,82 @@
+/* QUIZ CARD */
+.quiz-container {
+  width: 420px;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* TITLE */
+.quiz-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* QUESTION TEXT */
+.question-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* OPTIONS */
+.option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background-color: #f5faff;
+}
+
+.option input {
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+/* BUTTON */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1976d2;
+}
+
+.btn:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+/* RESULT PAGE */
+.result-box {
+  text-align: center;
+}
+
+.result-box h2 {
+  margin-bottom: 15px;
+}
